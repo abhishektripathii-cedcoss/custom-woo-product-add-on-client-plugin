@@ -30,6 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			$global_addons = WC_Product_Addons_Groups::get_all_global_groups();
 			// MWB changes made here
 			// Sort global_addons by priority.
+			// TEsting git
 			$keys = array_column( $global_addons, 'priority' );
 			array_multisort( $keys, SORT_ASC, $global_addons );
 
